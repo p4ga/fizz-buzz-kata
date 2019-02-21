@@ -8,7 +8,8 @@ public class FizzBuzzTest {
 
     @Test
     public void whenFizzBuzzIsPassedNumberItReturnsThatNumber(){
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("1", fizzBuzz.fizz(1));
+        FizzBuzz billyBob = new FizzBuzz();
+
+        assertEquals("1", billyBob.fizz(1));
     }
 }
