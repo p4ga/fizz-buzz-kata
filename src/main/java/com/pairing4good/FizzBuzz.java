@@ -17,4 +17,13 @@ public class FizzBuzz {
             return value.toString();
         }
     }
+
+    public String fizzbuzz(Integer value) {
+        if((value % 3 == 0) &&
+        (value % 5 == 0)){
+            return "fizzbuzz";
+        }else {
+            return value.toString();
+        }
+    }
 }
