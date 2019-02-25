@@ -9,4 +9,12 @@ public class FizzBuzz {
             return value.toString();
         }
     }
+
+    public String buzz(Integer value) {
+        if(value % 5 == 0){
+            return "buzz";
+        }else {
+            return value.toString();
+        }
+    }
 }
