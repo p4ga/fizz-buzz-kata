@@ -21,7 +21,7 @@ public class FizzBuzz {
     public String fizzbuzz(Integer value) {
         if((value % 3 == 0) &&
         (value % 5 == 0)){
-            return "fizzbuzz";
+            return "fizzbuzzz";
         }else {
             return value.toString();
         }

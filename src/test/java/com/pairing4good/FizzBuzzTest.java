@@ -39,7 +39,7 @@ public class FizzBuzzTest {
     @Test
     public void whenFizzBuzzIsPassedFifteenItReturnsFizzBuzz() {
         FizzBuzz billyBob = new FizzBuzz();
-        assertEquals("fizzbuzz", billyBob.fizzbuzz(15));
+        assertEquals("fizzbuzzz", billyBob.fizzbuzz(15));
     }
 }
 
